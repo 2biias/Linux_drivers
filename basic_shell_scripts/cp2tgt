@@ -1,0 +1,8 @@
+
+# this script copies a file to root@10.9.8.2
+#!/bin/bash
+
+filepath="$1"
+
+scp $filepath root@10.9.8.2:~/
+

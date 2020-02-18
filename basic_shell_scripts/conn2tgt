@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Trying SSH-connection to root@10.9.8.2.."
+
+ssh -q root@10.9.8.2 exit
+
+if [ $? -eq 0 ] ; then
+	#if ssh available
+	sshpass -p "" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@10.9.8.2
+else
+	echo "unable to ssh to root@10.9.8.2"
+fi

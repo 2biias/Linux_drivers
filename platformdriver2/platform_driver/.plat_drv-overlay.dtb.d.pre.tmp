@@ -1,0 +1,2 @@
+plat_drv-overlay.o: \
+ /home/stud/hal_work/exercise8/platform_driver/plat_drv-overlay.dts

@@ -1,0 +1,1 @@
+cmd_/home/stud/hal_work/exercise4/sw2/sw2.ko := arm-poky-linux-gnueabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/stud/hal_work/exercise4/sw2/sw2.ko /home/stud/hal_work/exercise4/sw2/sw2.o /home/stud/hal_work/exercise4/sw2/sw2.mod.o ;  true

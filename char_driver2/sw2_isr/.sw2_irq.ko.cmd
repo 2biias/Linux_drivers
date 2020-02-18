@@ -1,0 +1,1 @@
+cmd_/home/stud/hal_work/exercise5/sw2/sw2_irq.ko := arm-poky-linux-gnueabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/stud/hal_work/exercise5/sw2/sw2_irq.ko /home/stud/hal_work/exercise5/sw2/sw2_irq.o /home/stud/hal_work/exercise5/sw2/sw2_irq.mod.o ;  true

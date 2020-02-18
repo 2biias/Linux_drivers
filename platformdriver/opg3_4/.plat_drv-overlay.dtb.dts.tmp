@@ -1,0 +1,28 @@
+# 1 "/home/stud/hal_work/exercise6/opg3_4/plat_drv-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/home/stud/hal_work/exercise6/opg3_4/plat_drv-overlay.dts"
+
+
+/dts-v1/;
+/plugin/;
+
+/ {
+  compatible = "brcm,bcm2835", "brcm,bcm2708";
+
+  fragment@0 {
+
+    target-path = "/";
+    __overlay__ {
+
+      plat_drv: plat_drv@0 {
+
+        compatible = "ase, plat_drv";
+
+        gpios = <&gpio 20 1>, <&gpio 21 1>;
+
+        status = "okay";
+      };
+    };
+  };
+};

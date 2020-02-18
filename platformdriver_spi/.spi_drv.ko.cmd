@@ -1,0 +1,1 @@
+cmd_/home/stud/hal_work/exercise7/spi_drv.ko := arm-poky-linux-gnueabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/stud/hal_work/exercise7/spi_drv.ko /home/stud/hal_work/exercise7/spi_drv.o /home/stud/hal_work/exercise7/spi_drv.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/stud/hal_work/exercise6/opg1_2/plat_drv.ko := arm-poky-linux-gnueabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/stud/hal_work/exercise6/opg1_2/plat_drv.ko /home/stud/hal_work/exercise6/opg1_2/plat_drv.o /home/stud/hal_work/exercise6/opg1_2/plat_drv.mod.o ;  true
